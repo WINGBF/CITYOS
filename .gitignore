@@ -1,0 +1,18 @@
+# 依赖（别人 clone 下来跑 npm install 就行，不用传）
+node_modules/
+
+# 构建产物
+dist/
+
+# macOS 系统垃圾文件
+.DS_Store
+
+# 日志
+*.log
+npm-debug.log*
+
+# 环境变量/密钥（防止误传）
+.env
+.env.*
+*.key
+*.pem
